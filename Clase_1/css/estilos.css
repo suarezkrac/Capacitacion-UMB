@@ -1,0 +1,29 @@
+header{
+	background: cyan;
+	border: 2px solid black;
+	border-radius:30px 0px;
+	box-shadow: inset 0px 0px 20px black, 10px 10px 20px gray;
+	color: rgba(0,0,0,1);
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 2px gray;	
+	width: 400px;	
+}
+
+.boton{
+
+}
+.menu{
+	margin: 10px auto;
+	text-align: center;
+	width: 400px;
+}
+.menu li{
+	display: inline-block;
+	list-style:  none;
+}
+
+#menu_principal{
+	
+}
