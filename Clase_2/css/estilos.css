@@ -1,0 +1,75 @@
+[required]{
+	border-color: green;
+	box-shadow: 0px 0px 2px green;
+}
+:invalid{
+	border-color: red;
+	box-shadow: 0px 0px 2px red;
+}
+body{
+	/* Fondo Degradado
+	background: radial-gradient(center,rgba(200,0,0,0.3) 0%, rgba(0,0,200,0.3) 100%);
+	background: -webkit-radial-gradient(center,rgba(200,0,0,0.3) 0%, rgba(0,0,200,0.3) 100%);
+	*/
+
+	/*background: url('../img/fondo.jpg') no-repeat center center fixed;
+	background: url('../img/fondo.jpg') no-repeat;
+	background-size: 100% 100%;*/
+
+	background-image:url('../img/puntos.png'), url('../img/fondo.jpg');
+	background-position: center center, center center;
+	background-repeat: repeat, no-repeat;
+}
+
+header{
+	background: cyan;
+	border: 2px solid black;
+	border-radius:30px 0px;
+	box-shadow: inset 0px 0px 20px black, 10px 10px 20px gray;
+	color: rgba(0,0,0,1);
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 2px gray;	
+	width: 400px;	
+}
+video{
+	width: 400px;
+	height: 250px;
+}
+
+.boton{
+
+}
+.menu{
+	margin: 10px auto;
+	text-align: center;
+	width: 400px;
+}
+.menu li{
+	display: inline-block;
+	background: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px gray;
+	color: white;
+	cursor: pointer;
+	list-style:  none;
+	padding: 8px 15px;
+
+}
+
+.menu li:hover{
+	background: white;
+	color: black;
+}
+
+#contenido, footer{
+	margin: 0 auto;
+	width: 400px;
+}
+
+
+#menu_principal{
+	
+}
