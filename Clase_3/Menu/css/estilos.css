@@ -11,7 +11,7 @@
 		rgba(0,0,0,0.1) 100%
 	);
 
-background-image: -webkit-linear-gradient(
+	background-image: -webkit-linear-gradient(
 	 	top,
 		rgba(255,255,255,.5) 0%,
 		rgba(0,0,0,.1) 100%
@@ -26,6 +26,24 @@ background-image: -webkit-linear-gradient(
 	text-decoration: none;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.4); 
 }
+.cbdb-menu li a:active{
+	background-image: linear-gradient(
+		bottom,
+		rgba(255,255,255,.5) 0%,
+		rgba(255,255,255,.2) 10%,
+		rgba(0,0,0,0.2) 85%,
+		rgba(0,0,0,0.4) 100%
+	);
+
+	background-image: -webkit-linear-gradient(
+	 	bottom,
+		rgba(255,255,255,.5) 0%,
+		rgba(255,255,255,.2) 10%,
+		rgba(0,0,0,.2) 85%,
+		rgba(0,0,0,.4) 100%
+	);
+}
+
 .red{
 	background: #b80202;
 }
