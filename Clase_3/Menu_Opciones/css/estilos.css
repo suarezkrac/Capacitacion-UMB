@@ -74,5 +74,42 @@ nav{
 	position: absolute;
 	text-align: left;
 	width: 350px;
+}
+.titulo{
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
 
+.col{
+	float: left;
+	margin: 10px;
+	position: relative;
+	width: 40%;
+}
+
+.col img{
+	height: 100px;
+	width: 150px;
+
+}
+
+.drop{
+	padding-right: 21px;
+	background: url('../img/drop.png') no-repeat right 6px;
+}
+
+.textoColumna{
+	text-align: justify;
+	column-count: 2;
+	-webkit-column-count: 2;
+
+	column-gap: 20px;
+	-webkit-column-gap: 20px;
+
+	column-rule: 1px dotted black;
+	-webkit-column-rule: 1px dotted black;
+}
+.login{
+	column-count: 2;
+	-webkit-column-count: 2;
 }
