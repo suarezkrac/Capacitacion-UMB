@@ -1,0 +1,14 @@
+@font-face{
+	font-family: 'MiPrimeraFuente';
+	src: url('fonts/AlexBrush-Regular-OTF.otf'); /*OTF*/
+	/*ttf*/
+	/*eot*/
+	/*svg*/
+	/*woff*/
+
+}
+
+
+body{
+	font-family: 'MiPrimeraFuente', 'Verdana', cursive;
+}
