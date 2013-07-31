@@ -1,0 +1,29 @@
+body{
+	background-color: #000;
+	height: 748px;
+	width: 1024px;
+}
+#escenario{
+	height: 200px;
+	left: 20px;
+	padding-left: 100px;
+	position: absolute;
+	-webkit-perspective:1100;
+	top: 375px;
+	width: 950px;
+}
+#escenario img{
+	width: 200px;
+}
+.ladeado{
+	-webkit-box-reflect: below 2px -webkit-linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,0.33), rgba(255,255,255,1));
+	float: left;
+	margin-left: 70px;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotateY(60deg);
+	-webkit-transition: all 0.3s;
+	-webkit-transition-timing-function: ease-in;
+}
+.ladeado:active{
+	-webkit-transform:rotateY(0deg) scale(2);
+}
