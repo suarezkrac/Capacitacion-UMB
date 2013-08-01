@@ -9,6 +9,8 @@ body{
 	border: 2px solid white;
 	border-radius: 25px;
 	box-shadow: 0px 1px 15px rgba(0,0,0,0.5);
+
+	-webkit-transform: rotate(-90deg);
 }
 h1{
 	color: white;
@@ -38,3 +40,20 @@ article{
 article:focus{
 	height: 400px;
 }
+ p{
+	padding-left: 90px;
+	-webkit-transform: rotate(90deg);
+}
+img{
+	padding-left: 160px;
+	-webkit-transform: rotate(90deg);
+}
+.video{
+	padding-left: 90px;
+	-webkit-transform: rotate(90deg);
+}
+ .audio{
+	padding-left: 160px;
+	-webkit-transform: rotate(90deg);
+}
+
